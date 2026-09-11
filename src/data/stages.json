@@ -1,0 +1,72 @@
+{
+  "stages": [
+    {"id":"01","title":"동네 지점 기자회견","bpm":80,"chapter":1,"backgroundId":"lobby","pattern":"intro","difficulty":1},
+    {"id":"02","title":"본사 로비 대소동","bpm":90,"chapter":1,"backgroundId":"lobby","pattern":"office","difficulty":2},
+    {"id":"03","title":"비 오는 공장 정문","bpm":100,"chapter":1,"backgroundId":"factory","pattern":"rain","difficulty":3},
+    {"id":"04","title":"좁은 엘리베이터 인터뷰","bpm":104,"chapter":1,"backgroundId":"lobby","pattern":"office","difficulty":3},
+    {"id":"05","title":"편의점 주차장 긴급회견","bpm":108,"chapter":1,"backgroundId":"factory","pattern":"rain","difficulty":3},
+    {"id":"06","title":"호텔 연회장","bpm":110,"chapter":2,"backgroundId":"lobby","pattern":"office","difficulty":3},
+    {"id":"07","title":"주주총회 무대","bpm":112,"chapter":2,"backgroundId":"lobby","pattern":"rain","difficulty":3},
+    {"id":"08","title":"TV 뉴스 생방송","bpm":115,"chapter":2,"backgroundId":"lobby","pattern":"office","difficulty":3},
+    {"id":"09","title":"야외 축제 무대","bpm":118,"chapter":2,"backgroundId":"factory","pattern":"rain","difficulty":3},
+    {"id":"10","title":"음식 박람회","bpm":120,"chapter":2,"backgroundId":"lobby","pattern":"rain","difficulty":3},
+    {"id":"11","title":"서버실 정전 회견","bpm":122,"chapter":3,"backgroundId":"lobby","pattern":"office","difficulty":4},
+    {"id":"12","title":"로봇 공장","bpm":124,"chapter":3,"backgroundId":"factory","pattern":"rain","difficulty":4},
+    {"id":"13","title":"지하철 광고 촬영장","bpm":126,"chapter":3,"backgroundId":"lobby","pattern":"office","difficulty":4},
+    {"id":"14","title":"초대형 물류창고","bpm":128,"chapter":3,"backgroundId":"factory","pattern":"rain","difficulty":4},
+    {"id":"15","title":"유령처럼 조용한 사무실","bpm":130,"chapter":3,"backgroundId":"lobby","pattern":"office","difficulty":4},
+    {"id":"16","title":"옥상 헬리패드","bpm":132,"chapter":4,"backgroundId":"factory","pattern":"rain","difficulty":4},
+    {"id":"17","title":"폭풍우 속 야외 연단","bpm":134,"chapter":4,"backgroundId":"factory","pattern":"rain","difficulty":4},
+    {"id":"18","title":"해상 유람선 기자회견","bpm":136,"chapter":4,"backgroundId":"factory","pattern":"office","difficulty":4},
+    {"id":"19","title":"사막 태양광 기지","bpm":138,"chapter":4,"backgroundId":"factory","pattern":"rain","difficulty":4},
+    {"id":"20","title":"눈보라 치는 연구소","bpm":140,"chapter":4,"backgroundId":"factory","pattern":"rain","difficulty":4},
+    {"id":"21","title":"수중 호텔","bpm":144,"chapter":5,"backgroundId":"lobby","pattern":"rain","difficulty":5},
+    {"id":"22","title":"화산섬 리조트","bpm":148,"chapter":5,"backgroundId":"factory","pattern":"rain","difficulty":5},
+    {"id":"23","title":"달 기지 브리핑룸","bpm":152,"chapter":5,"backgroundId":"lobby","pattern":"office","difficulty":5},
+    {"id":"24","title":"우주선 격납고","bpm":156,"chapter":5,"backgroundId":"factory","pattern":"rain","difficulty":5},
+    {"id":"25","title":"무중력 화상 기자회견","bpm":160,"chapter":5,"backgroundId":"lobby","pattern":"rain","difficulty":5},
+    {"id":"26","title":"전 세계 동시 생중계","bpm":164,"chapter":6,"backgroundId":"lobby","pattern":"rain","difficulty":5},
+    {"id":"27","title":"홀로그램 기자단","bpm":168,"chapter":6,"backgroundId":"lobby","pattern":"rain","difficulty":5},
+    {"id":"28","title":"AI 앵커 연속 질문","bpm":172,"chapter":6,"backgroundId":"lobby","pattern":"rain","difficulty":5},
+    {"id":"29","title":"180BPM 사과 마라톤","bpm":180,"chapter":6,"backgroundId":"factory","pattern":"rain","difficulty":5},
+    {"id":"30","title":"모든 기자가 동시에 질문하는 날","bpm":180,"chapter":6,"backgroundId":"lobby","pattern":"rain","difficulty":5}
+  ],
+  "patterns": {
+    "intro": [
+      {"beat":4,"targetAngle":45,"question":"왜 복사기가 직원들의 비밀 일기를 출력했습니까?"},
+      {"beat":8,"targetAngle":45,"question":"복사기에게 사과할 의향은 있으십니까?"},
+      {"beat":12,"targetAngle":90,"question":"사내 커피 자판기가 독립을 선언한 사실을 인정합니까?"},
+      {"beat":16,"targetAngle":45,"question":"점심 반찬이 하나 사라진 책임은 누가 집니까?"},
+      {"beat":20,"targetAngle":90,"question":"빈 사과문을 배송한 이유가 무엇입니까?"},
+      {"beat":24,"targetAngle":120,"question":"마스코트 풍선은 왜 아직도 성층권에 있습니까?"},
+      {"beat":28,"targetAngle":45,"question":"직원 식당의 젤리가 출근을 거부했다면서요?"},
+      {"beat":32,"targetAngle":90,"question":"로봇 청소기가 이사회를 해산한 게 사실입니까?"},
+      {"beat":36,"targetAngle":120,"question":"화성 지사 엘리베이터가 왜 달에 도착했습니까?"},
+      {"beat":40,"targetAngle":45,"question":"마지막으로, 진심으로 사과하시겠습니까?"}
+    ],
+    "office": [
+      {"beat":4,"targetAngle":45,"question":"회전문이 월차를 신청한 게 사실입니까?"},
+      {"beat":8,"targetAngle":90,"question":"사장님 의자가 회사를 인수했다면서요?"},
+      {"beat":12,"targetAngle":120,"question":"복사기의 비밀 일기 출판을 중단하십시오!"},
+      {"beat":16,"targetAngle":45,"question":"잠깐, 아직 질문이 끝나지 않았습니다!","isFakeCue":true},
+      {"beat":20,"targetAngle":90,"question":"고객 3만 명에게 빈 사과문을 배송한 이유는요?","holdBeats":2},
+      {"beat":24,"targetAngle":45,"question":"화분이 인사팀장이 된 경위를 설명하십시오."},
+      {"beat":28,"targetAngle":120,"question":"커피 자판기의 독립 선언을 인정합니까?"},
+      {"beat":32,"targetAngle":90,"question":"로비의 분수가 국수를 뿜는 이유는요?","holdBeats":2},
+      {"beat":36,"targetAngle":45,"question":"공식 입장을 다시 말씀해 주십시오."},
+      {"beat":40,"targetAngle":120,"question":"이번에는 정말 재발 방지를 약속합니까?"}
+    ],
+    "rain": [
+      {"beat":4,"targetAngle":90,"question":"비가 오는 게 공장의 잘못이라면서요?"},
+      {"beat":8,"targetAngle":120,"question":"구름 제조기가 야근을 거부했습니까?"},
+      {"beat":12,"targetAngle":45,"question":"우산 공장에서 우산이 사라졌습니다!"},
+      {"beat":15.5,"targetAngle":90,"question":"로봇 청소기가 이사회를 해산했습니까?"},
+      {"beat":20,"targetAngle":120,"question":"책임을 회피하지 마십시오!","holdBeats":2},
+      {"beat":24,"targetAngle":45,"question":"아직 대답하지 마세요. 자료부터 보시죠.","isFakeCue":true},
+      {"beat":28,"targetAngle":90,"question":"연구소의 눈사람이 사표를 썼습니까?"},
+      {"beat":31.5,"targetAngle":120,"question":"양배추가 공장을 점거한 이유는요?"},
+      {"beat":36,"targetAngle":"dogeza","question":"이 모든 소동에 대한 진심을 보여 주십시오!","holdBeats":1},
+      {"beat":40,"targetAngle":90,"question":"일어나서 마지막으로 사과해 주십시오."}
+    ]
+  }
+}
